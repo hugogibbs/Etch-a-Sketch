@@ -1,55 +1,16 @@
 .container {
-    height: 480px;
-    width: 480px;
-    border-style: solid;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+    grid-template-rows: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
     
 }
 
-.row1 > * {
+.container > * {
     border-style: solid;
-    height: 120px;
-    width: 120px;
 }
 
-
-.row1 {
-    height: 120px;
-    width: 480px;
-    display: flex;
-}
-
-.row2 > * {
-    border-style: solid;
-    height: 120px;
-    width: 120px;
-}
-
-.row2 {
-    height: 120px;
-    width: 480px;
-    display: flex;
-}
-
-.row3 > * {
-    border-style: solid;
-    height: 120px;
-    width: 120px;
-}
-
-.row3 {
-    height: 120px;
-    width: 480px;
-    display: flex;
-}
-
-.row4 > * {
-    border-style: solid;
-    height: 120px;
-    width: 120px;
-}
-
-.row4 {
-    height: 120px;
-    width: 480px;
-    display: flex;
+.button {
+    margin-bottom: 20px;
 }
