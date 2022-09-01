@@ -9,7 +9,6 @@ document.getElementById('container').appendChild(square);
 
 }
 
-
 const square = document.querySelector('square');
 
 container.addEventListener('mouseover', e => {
@@ -22,7 +21,7 @@ button.addEventListener('click', e => {
 })
 
 btn2.addEventListener('click', e => {
-    container.style.background = 'red';
+    location.reload();
 })
 
 

@@ -4,11 +4,8 @@
     display: grid;
     grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
     grid-template-rows: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
-    
-}
-
-.container > * {
-    border-style: solid;
+    background-color: white;
+    margin-left: 350px;
 }
 
 .button {
@@ -17,4 +14,8 @@
 
 .btn2 {
     margin-bottom: 10px;
+}
+
+body {
+    background-color: aliceblue;
 }
