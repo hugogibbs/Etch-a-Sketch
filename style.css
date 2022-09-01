@@ -8,11 +8,9 @@ body {
     height: 500px;
     width: 500px;
     display: grid;
-    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
-    grid-template-rows: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
     background-color: white;
     margin-left: 100px;
-    
+
 }
 
 .button {
