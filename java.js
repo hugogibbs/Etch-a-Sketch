@@ -2,6 +2,7 @@
 function populateContainer(size) {
 
 let amount = size*size;
+clearContainer();
 
 for (let i = 0; i < amount; i++){
 
@@ -16,7 +17,7 @@ document.getElementById('container').style.gridTemplateRows = `repeat(${size}, 1
 const square = document.querySelector('square');
 
 container.addEventListener('mouseover', e => {
-   e.target.style.background = 'black';
+   e.target.style.background = 'black'; 
 })
 
 }
@@ -33,10 +34,14 @@ button.addEventListener('click', e => {
     }
 })
 
-let board = document.querySelector('board');
 
 btn2.addEventListener('click', e => {
-    container.style.background = 'random';
+    clearContainer();
 })
 
+function clearContainer(){
+    let board = document.querySelector(".board");
+    let square = board.querySelectorAll("div");
+    square.forEach((div) => div.style.background = 'white');
+}
 
