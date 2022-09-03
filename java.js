@@ -44,4 +44,3 @@ function clearContainer(){
     let square = board.querySelectorAll("div");
     square.forEach((div) => div.style.background = 'white');
 }
-
